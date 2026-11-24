@@ -1,9 +1,13 @@
 ## Get started 
 ```bash
-uv python install 3.12
-uv venv --python 3.12
+uv python install 3.11
+uv venv --python 3.11
 source .venv/bin/activate
+
 uv pip install -e .
+uv pip install 'Pillow==9.5.0'
+
+ python -m evilrdp --help
 ```
 
 ![Supported Python versions](https://img.shields.io/badge/python-3.7+-blue.svg) [![Twitter](https://img.shields.io/twitter/follow/skelsec?label=skelsec&style=social)](https://twitter.com/intent/follow?screen_name=skelsec)
